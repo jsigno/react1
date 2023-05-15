@@ -17,3 +17,25 @@ const h1 = document.createElement("h1")
 h1.textContent = "This is me using TextContext"
 h1.className = "header"
 document.getElementById("root3").append(h1)
+
+// JSX //
+// It's a tool that helps developers create the visual parts of websites or web applications using code. 
+// It's like mixing colors and shapes to make something awesome online!
+
+const navbar = (
+    <nav>
+        <ul>
+            <li>
+                Pricing
+            </li>
+            <li>
+                About
+            </li>
+            <li>
+                Contact
+            </li>
+        </ul>
+    </nav>
+)
+
+ReactDOM.render( navbar, document.getElementById("root4"))
